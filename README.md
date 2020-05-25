@@ -1,2 +1,2 @@
 # cmv-charts
-Data visualizations for raising public awareness of [congenital cytomegalovirus (CMV)](https://www.nationalcmv.org/)
+Data visualizations (with code) for raising public awareness of [congenital cytomegalovirus (CMV)](https://www.nationalcmv.org/).
