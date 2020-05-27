@@ -72,7 +72,7 @@ combo <- ggdraw() +
 # Save combination
 
 ggsave2(
-  "cmv_awareness-vs-incidence_with-logo.png", 
+  "images/cmv_awareness-vs-incidence_with-logo.png", 
   plot = combo, 
   width = 7, 
   height = 4
