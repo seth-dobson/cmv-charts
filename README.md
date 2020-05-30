@@ -5,18 +5,24 @@ Currently available images are below. These images are free to use but please ac
 
 Right click on image to `save as image`.
 
-The first chart is the key visualization for showing the CMV "awareness gap". It plots awareness and incidence of all congentical conditions together in the same chart.
+## Fig 1
+
+Basic CMV awareness graphic with National CMV logo.
 
 ![](https://github.com/seth-dobson/cmv-charts/blob/master/images/cmv_awareness-vs-incidence_with-logo.png)
 
-This one is the same as the chart above but with arrows and annotations highlighting hte CMV awareness gap.
-
 <br>
+
+## Fig 2
+
+Same as Fig 1 but with arrows and text annotations to highlight CMV awareness gap.
 
 ![](https://github.com/seth-dobson/cmv-charts/blob/master/images/cmv_awareness-vs-incidence_with-logo-and-arrows.png)
 
-This is a grayscale version of the CMV awareness gap graphic.
-
 <br>
+
+## Fig 3
+
+Grayscale version of CMV awareness gap graphic for possible use in academic journal articles.
 
 ![](https://github.com/seth-dobson/cmv-charts/blob/master/images/cmv_awareness-vs-incidence_grayscale.png)
