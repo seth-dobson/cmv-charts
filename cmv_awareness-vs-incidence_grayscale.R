@@ -23,12 +23,12 @@ df <- tribble(
 p <-
   df %>%
   ggplot(aes(x = reorder(condition, desc(awareness)), y = awareness)) +
-  geom_col(fill = "#676767") +
+  geom_col(fill = "gray") +
   geom_point(
     aes(x = condition, y = frequency / 70),
     size = 4,
     pch = 21,
-    fill = "white"
+    fill = "black"
   ) +
   scale_y_continuous(sec.axis = sec_axis(~ . * 70, name = "Number of Children Born with the Condition Each Year (Dots)")) +
   coord_flip() +
