@@ -1,7 +1,7 @@
 # CMV Charts
 Data visualizations (and code) for raising public awareness of [congenital cytomegalovirus (CMV)](https://www.nationalcmv.org/). 
 
-These images are free to use but please acknowledge the source: Artful Analytics, LLC. 
+These images are free to use for educational purposes, but please acknowledge the source: Artful Analytics, LLC. 
 
 Reach out to me on Twitter for custom chart requests ([@_sethdobson](https://twitter.com/_sethdobson)).
 
