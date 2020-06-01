@@ -25,6 +25,14 @@ Same as Fig 1 but with arrows and text annotations to highlight CMV awareness ga
 
 ## Fig 3
 
+Same as Fig 1 but without logo.
+
+![](https://github.com/seth-dobson/cmv-charts/blob/master/images/cmv_awareness-vs-incidence.png)
+
+<br>
+
+## Fig 3
+
 Grayscale version of CMV awareness gap graphic for possible use in academic journal articles.
 
 ![](https://github.com/seth-dobson/cmv-charts/blob/master/images/cmv_awareness-vs-incidence_grayscale.png)

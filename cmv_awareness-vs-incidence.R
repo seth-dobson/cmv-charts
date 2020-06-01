@@ -1,6 +1,7 @@
 library(tidyverse)
 library(cowplot)
 library(ggtext)
+library(magick)
 
 # Get data from Doutre et al.
 
@@ -22,20 +23,23 @@ df <- tribble(
 
 p <-
   df %>%
-  ggplot(aes(x = reorder(condition, desc(awareness)), y = frequency)) +
+  ggplot(aes(x = reorder(condition, desc(awareness)), y = awareness)) +
+  geom_col(fill = "#28C1DB") +
   geom_point(
+    aes(x = condition, y = frequency / 70),
     size = 4,
     pch = 21,
     fill = "#FB791A"
   ) +
+  scale_y_continuous(sec.axis = sec_axis(~ . * 70, name = "Number of Children Born with the Condition Each Year (Dots)")) +
   coord_flip() +
   labs(
     x = "",
-    y = "Number of Children Born with the Condition Each Year",
-    title = "Incidence of Congenital Conditions",
+    y = "Percentage of Women Who Have Heard of the Condition (Bars)",
+    title = "Awareness vs Incidence of Congenital Conditions",
     caption = "Based on US data from Doutré SM *et al.* (2016) Losing Ground: Awareness of Congenital Cytomegalovirus 
     in the United States. *Journal of Early Hearing Detection and Intervention* 1:39-48. Chart by Artful Analytics, 
-    LLC (@_sethdobson)."
+    LLC (@_sethdobson). <br>For more information, visit nationalcmv.org."
   ) +
   theme_bw() +
   theme(
@@ -51,8 +55,8 @@ p <-
 # Save chart
 
 ggsave2(
-  "images/cmv_awareness-vs-incidence_dots-only.png", 
-  plot = p,
+  "images/cmv_awareness-vs-incidence.png", 
+  plot = p, 
   width = 7, 
   height = 4
 )
