@@ -5,7 +5,7 @@ library(ggtext)
 # Get data from Doutre et al.
 
 df <- tribble(
-  ~condition, ~awareness, ~frequency,
+  ~condition, ~awareness, ~incidence,
   "Congenital Cytomegalovirus (CMV)", 6.7, 6000,
   "Congenital Toxoplasmosis", 8.53, 400,
   "Congenital Rubella Syndrome", 13.27, 3,
@@ -20,8 +20,7 @@ df <- tribble(
 
 # Create chart
 
-p <-
-  df %>%
+p <- df %>%
   ggplot(aes(x = reorder(condition, desc(awareness)), y = awareness)) +
   geom_col(fill = "#28C1DB") +
   coord_flip() +
@@ -35,14 +34,13 @@ p <-
   ) +
   theme_bw() +
   theme(
-    plot.title = element_markdown(face = "bold", hjust = .5),
+    plot.title = element_text(face = "bold", hjust = .5),
     plot.caption = element_textbox_simple(size = 6, margin = margin(10, 0, 0, 0)),
     axis.text = element_text(color = "black"),
     axis.title = element_text(size = 10),
-    axis.title.x = element_markdown()
+    axis.title.x = element_text()
   ) +
-  background_grid(major = "none") +
-  NULL
+  background_grid(major = "none")
 
 # Save chart
 
