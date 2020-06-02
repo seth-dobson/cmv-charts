@@ -27,7 +27,7 @@ Same as Fig 1 but without logo.
 
 <br>
 
-## Fig 3
+## Fig 4
 
 Grayscale version of CMV awareness gap graphic for possible use in academic journal articles.
 
