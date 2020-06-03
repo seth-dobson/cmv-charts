@@ -34,7 +34,7 @@ p <-
   scale_y_continuous(
     sec.axis = sec_axis(
       ~ . * 70, 
-      name = "Number of Children Born with the Condition Each Year (Dots)",
+      name = "Number of Children Disabled by the Condition Each Year (Dots)",
       labels = scales::comma_format()
     )
   ) +

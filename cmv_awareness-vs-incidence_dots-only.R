@@ -31,7 +31,7 @@ p <- df %>%
   coord_flip() +
   labs(
     x = "",
-    y = "Number of Children Born with the Condition Each Year",
+    y = "Number of Children Disabled by the Condition Each Year",
     title = "Incidence of Congenital Conditions",
     caption = "Based on US data from Doutré SM *et al.* (2016) Losing Ground: Awareness of Congenital Cytomegalovirus 
     in the United States. *Journal of Early Hearing Detection and Intervention* 1:39-48. Chart by Artful Analytics, 
