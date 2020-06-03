@@ -61,7 +61,7 @@ p <- df %>%
   background_grid(major = "none") +
   annotate(
     geom = "text",
-    label = "Number of children\nborn with CMV",
+    label = "Number of children\ndisabled by CMV",
     x = 7.8,
     y = 75,
     color = "#FB791A",
