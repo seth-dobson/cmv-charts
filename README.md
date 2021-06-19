@@ -40,3 +40,15 @@ Grayscale version of CMV awareness gap graphic for possible use in academic jour
 Spanish language version
 
 ![](https://github.com/seth-dobson/cmv-charts/blob/master/images/cmv_awareness-vs-incidence_with-logo-and-arrows_spanish.png)
+
+## Fig 6
+
+STOP CMV AZ version
+
+![](https://github.com/seth-dobson/cmv-charts/blob/master/images/cmv_awareness-vs-incidence_stop-cmv-az.png)
+
+## Fig 7
+
+ALTO CMV AZ version
+
+![](https://github.com/seth-dobson/cmv-charts/blob/master/images/cmv_awareness-vs-incidence_alto-cmv-az.png)
